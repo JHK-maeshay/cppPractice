@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/HKIT/Desktop/conda/c/build/cmake_install.cmake",
+		"C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/cmake_install.cmake",
+		"C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/src/cmake_install.cmake",
+		"C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
