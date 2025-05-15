@@ -1,1 +1,1 @@
--IC:/Users/HKIT/Desktop/conda/c/source/imgui -IC:/Users/HKIT/Desktop/conda/c/source/imgui/backends -IC:/Users/HKIT/Desktop/conda/c/external/glfw/include -I"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include"
+-IC:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui -IC:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/backends -IC:/Users/HKIT/Desktop/conda/c/cppPractice/external/glfw/include -I"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include"

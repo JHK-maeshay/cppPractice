@@ -1,5 +1,5 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\gui.cpp \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.cpp \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt.h \
@@ -180,4 +180,23 @@ CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: \
  C:/mingw64/include/c++/15.1.0/ext/aligned_buffer.h \
  C:/mingw64/include/c++/15.1.0/bits/fs_dir.h \
  C:/mingw64/include/c++/15.1.0/bits/fs_ops.h \
- C:\Users\HKIT\Desktop\conda\c\gui.h
+ C:/mingw64/include/c++/15.1.0/vector \
+ C:/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_vector.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_bvector.h \
+ C:/mingw64/include/c++/15.1.0/bits/vector.tcc \
+ C:/mingw64/include/c++/15.1.0/set \
+ C:/mingw64/include/c++/15.1.0/bits/stl_tree.h \
+ C:/mingw64/include/c++/15.1.0/bits/node_handle.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_set.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_multiset.h \
+ C:/mingw64/include/c++/15.1.0/bits/erase_if.h \
+ C:/mingw64/include/c++/15.1.0/algorithm \
+ C:/mingw64/include/c++/15.1.0/bits/stl_algo.h \
+ C:/mingw64/include/c++/15.1.0/bits/algorithmfwd.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_heap.h \
+ C:/mingw64/include/c++/15.1.0/bits/uniform_int_dist.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_tempbuf.h \
+ C:/mingw64/include/c++/15.1.0/pstl/glue_algorithm_defs.h \
+ C:/mingw64/include/c++/15.1.0/pstl/execution_defs.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.h

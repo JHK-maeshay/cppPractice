@@ -1,22 +1,28 @@
 #pragma once
 
-const std::string INDIR = "INPUT_FILE_HERE";
-const std::string OUTDIR = "OUTPUT_HERE";
-const std::string NAME = "ComfuUI_";
+#include <vector>
+#include <set>
+
+inline const std::string INDIR = "INPUT_FILE_HERE";
+inline const std::string OUTDIR = "OUTPUT_HERE";
+inline const std::string NAME = "ComfuUI_";
 
 typedef struct {
     int converted;
     int dummy;
 } FeatureResult;
 
+template <typename Func>
 void handle_generic_feature(
-    void* feature_function,
-    std::string input_text=NAME,
-    std::string ext=".png",
-    std::string indir=INDIR,
-    std::string outdir=OUTDIR,
+    Func feature_function,
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir,
     bool is_queue=false
-);
+){
+    feature_function(input_text, ext, indir, outdir);
+};
 
 void example_feature_function(
     std::string input_text,
@@ -60,8 +66,26 @@ void tag_modifier(
     std::string outdir
 );
 
-void handle_image_queue();
+void handle_image_queue(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+);
 
-void handle_text_queue();
+void handle_text_queue(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+);
 
 void log_msg(std::string msg);
+
+void err_msg(std::string msg);
+
+std::vector<std::string> parseCSV(const std::string& input);
+
+std::string joinCSV(const std::vector<std::string>& items);
+
+std::set<std::string> vectorToSet(const std::vector<std::string>& vec);

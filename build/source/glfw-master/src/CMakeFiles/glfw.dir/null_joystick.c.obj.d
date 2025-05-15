@@ -1,7 +1,7 @@
 source/glfw-master/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\null_joystick.c \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\internal.h \
- C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\null_joystick.c \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\internal.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stddef.h \
  C:/mingw64/x86_64-w64-mingw32/include/stddef.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -14,9 +14,9 @@ source/glfw-master/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdbool.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\platform.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\null_platform.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\win32_platform.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\platform.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\null_platform.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\win32_platform.h \
  C:/mingw64/x86_64-w64-mingw32/include/wctype.h \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
@@ -256,8 +256,8 @@ source/glfw-master/src/CMakeFiles/glfw.dir/null_joystick.c.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_dxhelper.h \
  C:/mingw64/x86_64-w64-mingw32/include/xinput.h \
  C:/mingw64/x86_64-w64-mingw32/include/dbt.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\null_joystick.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\win32_joystick.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\win32_thread.h \
- C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src\win32_time.h \
- C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3native.h
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\null_joystick.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\win32_joystick.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\win32_thread.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src\win32_time.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3native.h

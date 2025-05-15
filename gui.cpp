@@ -6,23 +6,13 @@
 #include <fstream>
 #include <filesystem> // C++17부터 지원
 namespace fs = std::filesystem;
+#include <vector>
+#include <set>
+#include <algorithm> 
+#include <cctype>    
+#include <locale> 
 
 #include "gui.h"
-
-void handle_generic_feature(
-    void* feature_function,
-    std::string input_text,
-    std::string ext,
-    std::string indir,
-    std::string outdir,
-    bool is_queue
-){
-    // feature_function 호출
-     auto func = reinterpret_cast<void(*)(std::string, std::string, std::string, std::string)>(feature_function);
-    func(input_text, ext, indir, outdir);
-    
-    return;
-};
 
 void example_feature_function(
     std::string input_text,
@@ -50,7 +40,7 @@ void file_namer(
     try {
         for (const auto& entry : fs::directory_iterator(indir)){
             if (!fs::exists(indir)) {
-            std::cerr << "[error] 디렉터리 '" << indir << "'가 존재하지 않습니다." << std::endl;
+            err_msg("[error] 디렉터리 '"+indir+"'가 존재하지 않습니다.");
             }
             bool is_empty = true;
             
@@ -76,7 +66,7 @@ void file_namer(
                     // 파일을 복사하여 새 이름으로 저장
                     fs::copy(entry.path(), new_file_path);
 
-                    std::cout << "파일 복사: " << entry.path() << " -> " << new_file_path << std::endl;
+                    log_msg("파일 복사: "+entry.path().string()+" -> "+new_file_path.string());
                     
                     // 카운터 증가
                     counter++;
@@ -85,7 +75,7 @@ void file_namer(
             }
 
             if (is_empty) {
-            log_msg("디렉터리 "+indir+"는 비어있습니다");
+            err_msg("디렉터리 "+indir+"는 비어있습니다");
             }
 
             if (counter) {
@@ -101,15 +91,158 @@ void file_namer(
     return;
 }
 
-void handle_image_queue(){
-    return;
+void image_ext_changer(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){return;};
+
+void image_resizer(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){return;};
+
+void tag_formatter(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){return;};
+
+void tag_modifier(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){
+    log_msg(input_text);
+
+    // input_text 파싱
+    std::istringstream ss(input_text);
+    std::string _insert_, _delete_;
+    std::getline(ss, _insert_);
+    std::getline(ss, _delete_);
+
+    std::vector<std::string> insert_tags = parseCSV(_insert_);
+    std::vector<std::string> delete_tags = parseCSV(_delete_);
+
+    // 검색용 set
+    std::set<std::string> insert_tags_set = vectorToSet(insert_tags);
+    std::set<std::string> delete_tags_set = vectorToSet(delete_tags);
+
+    namespace fs = std::filesystem;
+    for (const auto& entry : fs::directory_iterator(indir)) {
+        if (entry.path().extension() == ".txt") {
+            std::ifstream in(entry.path());
+            if (!in.is_open()) {
+                log_msg("파일 열기 실패");
+                continue;
+            }
+
+            std::string line;
+            std::getline(in, line);
+            in.close();
+
+            std::vector<std::string> values = parseCSV(line);
+            std::vector<std::string> filtered;
+
+            // 기존 값에서 insert/delete tag 제거
+            for (const auto& val : values) {
+                if (
+                    insert_tags_set.find(val) == insert_tags_set.end() &&
+                    delete_tags_set.find(val) == delete_tags_set.end()
+                ) {
+                    filtered.push_back(val);
+                }
+            }
+
+            // 사용자 입력 순서대로 insert_tags 맨 앞에 삽입 (역순으로 insert)
+            for (auto it = insert_tags.rbegin(); it != insert_tags.rend(); ++it) {
+                filtered.insert(filtered.begin(), *it);
+            }
+
+            // 출력 경로 설정
+            fs::path out_path = fs::path(outdir) / entry.path().filename();
+            std::ofstream out(out_path, std::ios::trunc);
+            if (!out.is_open()) {
+                err_msg("Failed to write to " + entry.path().string());
+                continue;
+            }
+
+            out << joinCSV(filtered) << std::endl;
+            log_msg("Processed: " + entry.path().string());
+        }
+    }
 }
 
-void handle_text_queue(){
-    return;
+//공백 제거 함수
+static inline void trim(std::string &s) {
+    // 왼쪽 공백 제거
+    s.erase(s.begin(), std::find_if(s.begin(), s.end(), [](unsigned char ch) {
+        return !std::isspace(ch);
+    }));
+    // 오른쪽 공백 제거
+    s.erase(std::find_if(s.rbegin(), s.rend(), [](unsigned char ch) {
+        return !std::isspace(ch);
+    }).base(), s.end());
 }
+
+//csv를 단어로 파싱
+std::vector<std::string> parseCSV(const std::string& input) {
+    std::vector<std::string> result;
+    std::stringstream ss(input);
+    std::string item;
+
+    while (std::getline(ss, item, ',')) {
+        trim(item);
+        result.push_back(item);
+    }
+
+    return result;
+}
+
+//단어를 csv로 조인
+std::string joinCSV(const std::vector<std::string>& items) {
+    std::ostringstream oss;
+    for (size_t i = 0; i < items.size(); ++i) {
+        if (i > 0) oss << ", ";
+        oss << items[i];
+    }
+    return oss.str();
+}
+
+//vector to set
+std::set<std::string> vectorToSet(const std::vector<std::string>& vec) {
+    return std::set<std::string>(vec.begin(), vec.end());
+}
+
+void handle_image_queue(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){
+    return;
+};
+
+void handle_text_queue(
+    std::string input_text,
+    std::string ext,
+    std::string indir,
+    std::string outdir
+){
+    return;
+};
 
 void log_msg(std::string msg) {
     std::cout << "[log] " << msg << std::endl;
+    return;
+}
+
+void err_msg(std::string msg) {
+    std::cout << "[error] " << msg << std::endl;
     return;
 }

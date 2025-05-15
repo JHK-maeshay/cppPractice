@@ -52,10 +52,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SDtrainDataPreprocessor.dir/depend.make
@@ -73,138 +73,153 @@ CMakeFiles/SDtrainDataPreprocessor.dir/codegen:
 
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: C:/Users/HKIT/Desktop/conda/c/gui.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/gui.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\gui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\gui.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/gui.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\gui.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\gui.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: C:/Users/HKIT/Desktop/conda/c/main.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/main.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\main.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\main.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\main.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\main.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\main.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\main.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui_draw.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui_draw.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_draw.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_draw.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_draw.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_draw.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_draw.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_draw.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_draw.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui_tables.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui_tables.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_tables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_tables.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_tables.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_tables.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_tables.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_tables.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_tables.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui_widgets.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui_widgets.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_widgets.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_widgets.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_widgets.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_widgets.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_widgets.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_widgets.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_widgets.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui_demo.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui_demo.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_demo.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_demo.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_demo.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_demo.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_demo.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\imgui_demo.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/backends/imgui_impl_glfw.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_glfw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_glfw.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_glfw.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_glfw.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_glfw.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_glfw.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_glfw.cpp.s
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
-CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: C:/Users/HKIT/Desktop/conda/c/source/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/backends/imgui_impl_opengl3.cpp
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3.cpp
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.i"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.i
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.i
 
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.s"
-	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.s
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\backends\imgui_impl_opengl3.cpp.s
+
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/flags.make
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/includes_CXX.rsp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/misc/cpp/imgui_stdlib.cpp
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj: CMakeFiles/SDtrainDataPreprocessor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj -MF CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\misc\cpp\imgui_stdlib.cpp.obj.d -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\misc\cpp\imgui_stdlib.cpp.obj -c C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\misc\cpp\imgui_stdlib.cpp
+
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.i"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\misc\cpp\imgui_stdlib.cpp > CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\misc\cpp\imgui_stdlib.cpp.i
+
+CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.s"
+	C:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\misc\cpp\imgui_stdlib.cpp -o CMakeFiles\SDtrainDataPreprocessor.dir\source\imgui\misc\cpp\imgui_stdlib.cpp.s
 
 # Object files for target SDtrainDataPreprocessor
 SDtrainDataPreprocessor_OBJECTS = \
@@ -216,7 +231,8 @@ SDtrainDataPreprocessor_OBJECTS = \
 "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj" \
 "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj" \
 "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj" \
-"CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj"
+"CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj"
 
 # External object files for target SDtrainDataPreprocessor
 SDtrainDataPreprocessor_EXTERNAL_OBJECTS =
@@ -230,12 +246,13 @@ SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj
+SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/build.make
 SDtrainDataPreprocessor.exe: source/glfw-master/src/libglfw3.a
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/linkLibs.rsp
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/objects1.rsp
 SDtrainDataPreprocessor.exe: CMakeFiles/SDtrainDataPreprocessor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable SDtrainDataPreprocessor.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable SDtrainDataPreprocessor.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SDtrainDataPreprocessor.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -247,6 +264,6 @@ CMakeFiles/SDtrainDataPreprocessor.dir/clean:
 .PHONY : CMakeFiles/SDtrainDataPreprocessor.dir/clean
 
 CMakeFiles/SDtrainDataPreprocessor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c C:\Users\HKIT\Desktop\conda\c C:\Users\HKIT\Desktop\conda\c\build C:\Users\HKIT\Desktop\conda\c\build C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles\SDtrainDataPreprocessor.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c\cppPractice C:\Users\HKIT\Desktop\conda\c\cppPractice C:\Users\HKIT\Desktop\conda\c\cppPractice\build C:\Users\HKIT\Desktop\conda\c\cppPractice\build C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles\SDtrainDataPreprocessor.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/SDtrainDataPreprocessor.dir/depend
 

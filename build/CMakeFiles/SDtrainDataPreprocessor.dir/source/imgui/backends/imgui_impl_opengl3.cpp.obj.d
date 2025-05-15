@@ -1,7 +1,7 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3.cpp \
- C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui.h \
- C:/Users/HKIT/Desktop/conda/c/source/imgui/imconfig.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3.cpp \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imconfig.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -35,7 +35,7 @@ CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/mingw64/include/c++/15.1.0/bits/std_abs.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -43,7 +43,7 @@ CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_opengl3.
  C:/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_opengl3_loader.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_opengl3_loader.h \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/mingw64/x86_64-w64-mingw32/include/excpt.h \

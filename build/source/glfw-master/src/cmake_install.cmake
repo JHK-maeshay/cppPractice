@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/src
+# Install script for directory: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,12 +38,12 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/src/libglfw3.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/HKIT/Desktop/conda/c/cppPractice/build/source/glfw-master/src/libglfw3.a")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/HKIT/Desktop/conda/c/cppPractice/build/source/glfw-master/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

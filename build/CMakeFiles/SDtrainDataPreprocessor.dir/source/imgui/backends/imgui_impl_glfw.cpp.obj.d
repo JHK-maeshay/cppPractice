@@ -1,7 +1,7 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_glfw.cpp \
- C:/Users/HKIT/Desktop/conda/c/source/imgui/imgui.h \
- C:/Users/HKIT/Desktop/conda/c/source/imgui/imconfig.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_glfw.cpp \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imgui.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/imgui/imconfig.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -35,12 +35,12 @@ CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/backends/imgui_impl_glfw.cpp
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/mingw64/include/c++/15.1.0/bits/std_abs.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\backends\imgui_impl_glfw.h \
- C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\backends\imgui_impl_glfw.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/GL/gl.h \
- C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3native.h \
+ C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3native.h \
  C:/mingw64/x86_64-w64-mingw32/include/windows.h \
  C:/mingw64/x86_64-w64-mingw32/include/sdkddkver.h \
  C:/mingw64/x86_64-w64-mingw32/include/excpt.h \

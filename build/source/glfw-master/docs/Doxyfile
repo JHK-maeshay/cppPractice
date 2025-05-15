@@ -68,7 +68,7 @@ PROJECT_LOGO           =
 # entered, it will be relative to the location where doxygen was started. If
 # left blank the current directory will be used.
 
-OUTPUT_DIRECTORY       = "C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/docs"
+OUTPUT_DIRECTORY       = "C:/Users/HKIT/Desktop/conda/c/cppPractice/build/source/glfw-master/docs"
 
 # If the CREATE_SUBDIRS tag is set to YES then doxygen will create up to 4096
 # sub-directories (in 2 levels) under the output directory of each output format
@@ -816,7 +816,7 @@ FILE_VERSION_FILTER    =
 # DoxygenLayout.xml, doxygen will parse it automatically even if the LAYOUT_FILE
 # tag is left empty.
 
-LAYOUT_FILE            = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/DoxygenLayout.xml"
+LAYOUT_FILE            = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/DoxygenLayout.xml"
 
 # The CITE_BIB_FILES tag can be used to specify one or more bib files containing
 # the reference definitions. This must be a list of .bib files. The .bib
@@ -932,7 +932,7 @@ WARN_LINE_FORMAT       = "at line $line of file $file"
 # specified the warning and error messages are written to standard output
 # (stdout).
 
-WARN_LOGFILE           = "C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/docs/warnings.txt"
+WARN_LOGFILE           = "C:/Users/HKIT/Desktop/conda/c/cppPractice/build/source/glfw-master/docs/warnings.txt"
 
 #---------------------------------------------------------------------------
 # Configuration options related to the input files
@@ -945,22 +945,22 @@ WARN_LOGFILE           = "C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master
 # Note: If this tag is empty the current directory is searched.
 
 INPUT                  =  \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3.h" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3native.h" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/main.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/news.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/quick.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/moving.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/compile.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/build.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/intro.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/context.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/monitor.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/window.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/input.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/vulkan.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/compat.md" \
-"C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/internal.md"
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3.h" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3native.h" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/main.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/news.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/quick.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/moving.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/compile.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/build.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/intro.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/context.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/monitor.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/window.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/input.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/vulkan.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/compat.md" \
+"C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/internal.md"
 
 # This tag can be used to specify the character encoding of the source files
 # that doxygen parses. Internally doxygen uses the UTF-8 encoding. Doxygen uses
@@ -1045,7 +1045,7 @@ EXCLUDE_SYMBOLS        = APIENTRY GLFWAPI
 # that contain example code fragments that are included (see the \include
 # command).
 
-EXAMPLE_PATH           = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/examples"
+EXAMPLE_PATH           = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/examples"
 
 # If the value of the EXAMPLE_PATH tag contains directories, you can use the
 # EXAMPLE_PATTERNS tag to specify one or more wildcard pattern (like *.cpp and
@@ -1285,7 +1285,7 @@ HTML_FILE_EXTENSION    = .html
 # of the possible markers and block names see the documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_HEADER            = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/header.html"
+HTML_HEADER            = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/header.html"
 
 # The HTML_FOOTER tag can be used to specify a user-defined HTML footer for each
 # generated HTML page. If the tag is left blank doxygen will generate a standard
@@ -1295,7 +1295,7 @@ HTML_HEADER            = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/
 # that doxygen normally uses.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_FOOTER            = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/footer.html"
+HTML_FOOTER            = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/footer.html"
 
 # The HTML_STYLESHEET tag can be used to specify a user-defined cascading style
 # sheet that is used by each HTML page. It can be used to fine-tune the look of
@@ -1325,7 +1325,7 @@ HTML_STYLESHEET        =
 # documentation.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_STYLESHEET  = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/extra.css"
+HTML_EXTRA_STYLESHEET  = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/extra.css"
 
 # The HTML_EXTRA_FILES tag can be used to specify one or more extra images or
 # other source files which should be copied to the HTML output directory. Note
@@ -1335,7 +1335,7 @@ HTML_EXTRA_STYLESHEET  = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/
 # files will be copied as-is; there are no commands or markers available.
 # This tag requires that the tag GENERATE_HTML is set to YES.
 
-HTML_EXTRA_FILES       = "C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/spaces.svg"
+HTML_EXTRA_FILES       = "C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/spaces.svg"
 
 # The HTML_COLORSTYLE tag can be used to specify if the generated HTML output
 # should be rendered with a dark or light theme.

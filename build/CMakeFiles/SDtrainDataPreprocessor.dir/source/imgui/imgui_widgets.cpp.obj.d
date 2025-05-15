@@ -1,7 +1,7 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_widgets.cpp \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imconfig.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_widgets.cpp \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imconfig.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \
@@ -35,7 +35,7 @@ CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/mm_malloc.h \
  C:/mingw64/x86_64-w64-mingw32/include/errno.h \
  C:/mingw64/include/c++/15.1.0/bits/std_abs.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_internal.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_internal.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdio.h \
  C:/mingw64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -192,4 +192,4 @@ CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj: \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/amxmovrsintrin.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imstb_textedit.h
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imstb_textedit.h

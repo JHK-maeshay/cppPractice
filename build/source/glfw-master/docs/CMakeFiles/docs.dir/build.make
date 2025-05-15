@@ -52,10 +52,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 # Utility rule file for docs.
 
@@ -66,29 +66,29 @@ include source/glfw-master/docs/CMakeFiles/docs.dir/compiler_depend.make
 include source/glfw-master/docs/CMakeFiles/docs.dir/progress.make
 
 source/glfw-master/docs/html/index.html: source/glfw-master/docs/Doxyfile
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3.h
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/include/GLFW/glfw3native.h
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/main.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/news.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/quick.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/moving.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/compile.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/build.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/intro.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/context.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/monitor.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/window.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/input.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/vulkan.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/compat.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/internal.md
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/DoxygenLayout.xml
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/header.html
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/footer.html
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/extra.css
-source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/source/glfw-master/docs/spaces.svg
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating HTML documentation"
-	cd /d C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\docs && C:\mingw64\bin\doxygen.exe
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3.h
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/include/GLFW/glfw3native.h
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/main.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/news.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/quick.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/moving.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/compile.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/build.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/intro.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/context.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/monitor.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/window.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/input.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/vulkan.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/compat.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/internal.md
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/DoxygenLayout.xml
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/header.html
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/footer.html
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/extra.css
+source/glfw-master/docs/html/index.html: C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/docs/spaces.svg
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating HTML documentation"
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\docs && C:\mingw64\bin\doxygen.exe
 
 source/glfw-master/docs/CMakeFiles/docs.dir/codegen:
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/codegen
@@ -102,10 +102,10 @@ source/glfw-master/docs/CMakeFiles/docs.dir/build: docs
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/build
 
 source/glfw-master/docs/CMakeFiles/docs.dir/clean:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\docs && $(CMAKE_COMMAND) -P CMakeFiles\docs.dir\cmake_clean.cmake
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\docs && $(CMAKE_COMMAND) -P CMakeFiles\docs.dir\cmake_clean.cmake
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/clean
 
 source/glfw-master/docs/CMakeFiles/docs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c C:\Users\HKIT\Desktop\conda\c\source\glfw-master\docs C:\Users\HKIT\Desktop\conda\c\build C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\docs C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\docs\CMakeFiles\docs.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c\cppPractice C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\docs C:\Users\HKIT\Desktop\conda\c\cppPractice\build C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\docs C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\docs\CMakeFiles\docs.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/depend
 

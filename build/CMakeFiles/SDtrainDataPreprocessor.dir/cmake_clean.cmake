@@ -17,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_tables.cpp.obj.d"
   "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj"
   "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_widgets.cpp.obj.d"
+  "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj"
+  "CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/misc/cpp/imgui_stdlib.cpp.obj.d"
   "SDtrainDataPreprocessor.exe"
   "SDtrainDataPreprocessor.exe.manifest"
   "SDtrainDataPreprocessor.pdb"

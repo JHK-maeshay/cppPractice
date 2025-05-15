@@ -1,5 +1,5 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\main.cpp \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\main.cpp \
  C:/mingw64/include/c++/15.1.0/string \
  C:/mingw64/include/c++/15.1.0/bits/requires_hosted.h \
  C:/mingw64/include/c++/15.1.0/x86_64-w64-mingw32/bits/c++config.h \
@@ -425,15 +425,28 @@ CMakeFiles/SDtrainDataPreprocessor.dir/main.cpp.obj: \
  C:/mingw64/x86_64-w64-mingw32/include/propkeydef.h \
  C:/mingw64/x86_64-w64-mingw32/include/objectarray.h \
  C:/mingw64/x86_64-w64-mingw32/include/sherrors.h \
- C:\Users\HKIT\Desktop\conda\c\gui.h \
- C:\Users\HKIT\Desktop\conda\c\source/imgui/imgui.h \
- C:\Users\HKIT\Desktop\conda\c\source/imgui/imconfig.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\gui.h \
+ C:/mingw64/include/c++/15.1.0/vector \
+ C:/mingw64/include/c++/15.1.0/bits/stl_uninitialized.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_vector.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_bvector.h \
+ C:/mingw64/include/c++/15.1.0/bits/vector.tcc \
+ C:/mingw64/include/c++/15.1.0/set \
+ C:/mingw64/include/c++/15.1.0/bits/stl_tree.h \
+ C:/mingw64/include/c++/15.1.0/ext/aligned_buffer.h \
+ C:/mingw64/include/c++/15.1.0/bits/node_handle.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_set.h \
+ C:/mingw64/include/c++/15.1.0/bits/stl_multiset.h \
+ C:/mingw64/include/c++/15.1.0/bits/erase_if.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/imgui/imgui.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/imgui/imconfig.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/assert.h \
- C:\Users\HKIT\Desktop\conda\c\source/imgui/backends/imgui_impl_glfw.h \
- C:\Users\HKIT\Desktop\conda\c\source/imgui/backends/imgui_impl_opengl3.h \
- C:\Users\HKIT\Desktop\conda\c\source/glfw-master/include/GLFW/glfw3.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/imgui/backends/imgui_impl_glfw.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/imgui/backends/imgui_impl_opengl3.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/imgui/misc/cpp/imgui_stdlib.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source/glfw-master/include/GLFW/glfw3.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/stdint.h \
  C:/mingw64/x86_64-w64-mingw32/include/GL/gl.h

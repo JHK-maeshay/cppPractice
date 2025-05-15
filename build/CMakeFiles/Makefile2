@@ -53,10 +53,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -150,14 +150,14 @@ source/glfw-master/src/clean: source/glfw-master/src/CMakeFiles/update_mappings.
 CMakeFiles/SDtrainDataPreprocessor.dir/all: source/glfw-master/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDtrainDataPreprocessor.dir\build.make CMakeFiles/SDtrainDataPreprocessor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDtrainDataPreprocessor.dir\build.make CMakeFiles/SDtrainDataPreprocessor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Built target SDtrainDataPreprocessor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target SDtrainDataPreprocessor"
 .PHONY : CMakeFiles/SDtrainDataPreprocessor.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SDtrainDataPreprocessor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 33
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/SDtrainDataPreprocessor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : CMakeFiles/SDtrainDataPreprocessor.dir/rule
 
 # Convenience name for target.
@@ -167,7 +167,7 @@ SDtrainDataPreprocessor: CMakeFiles/SDtrainDataPreprocessor.dir/rule
 # codegen rule for target.
 CMakeFiles/SDtrainDataPreprocessor.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\SDtrainDataPreprocessor.dir\build.make CMakeFiles/SDtrainDataPreprocessor.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10 "Finished codegen for target SDtrainDataPreprocessor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target SDtrainDataPreprocessor"
 .PHONY : CMakeFiles/SDtrainDataPreprocessor.dir/codegen
 
 # clean rule for target.
@@ -182,14 +182,14 @@ CMakeFiles/SDtrainDataPreprocessor.dir/clean:
 source/glfw-master/CMakeFiles/uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\CMakeFiles\uninstall.dir\build.make source/glfw-master/CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\CMakeFiles\uninstall.dir\build.make source/glfw-master/CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 source/glfw-master/CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -199,7 +199,7 @@ uninstall: source/glfw-master/CMakeFiles/uninstall.dir/rule
 # codegen rule for target.
 source/glfw-master/CMakeFiles/uninstall.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\CMakeFiles\uninstall.dir\build.make source/glfw-master/CMakeFiles/uninstall.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num= "Finished codegen for target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num= "Finished codegen for target uninstall"
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/codegen
 
 # clean rule for target.
@@ -214,14 +214,14 @@ source/glfw-master/CMakeFiles/uninstall.dir/clean:
 source/glfw-master/src/CMakeFiles/glfw.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\glfw.dir\build.make source/glfw-master/src/CMakeFiles/glfw.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\glfw.dir\build.make source/glfw-master/src/CMakeFiles/glfw.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Built target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Built target glfw"
 .PHONY : source/glfw-master/src/CMakeFiles/glfw.dir/all
 
 # Build rule for subdir invocation for target.
 source/glfw-master/src/CMakeFiles/glfw.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/src/CMakeFiles/glfw.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : source/glfw-master/src/CMakeFiles/glfw.dir/rule
 
 # Convenience name for target.
@@ -231,7 +231,7 @@ glfw: source/glfw-master/src/CMakeFiles/glfw.dir/rule
 # codegen rule for target.
 source/glfw-master/src/CMakeFiles/glfw.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\glfw.dir\build.make source/glfw-master/src/CMakeFiles/glfw.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33 "Finished codegen for target glfw"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 "Finished codegen for target glfw"
 .PHONY : source/glfw-master/src/CMakeFiles/glfw.dir/codegen
 
 # clean rule for target.
@@ -246,14 +246,14 @@ source/glfw-master/src/CMakeFiles/glfw.dir/clean:
 source/glfw-master/src/CMakeFiles/update_mappings.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\update_mappings.dir\build.make source/glfw-master/src/CMakeFiles/update_mappings.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\update_mappings.dir\build.make source/glfw-master/src/CMakeFiles/update_mappings.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=34 "Built target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=35 "Built target update_mappings"
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/all
 
 # Build rule for subdir invocation for target.
 source/glfw-master/src/CMakeFiles/update_mappings.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/src/CMakeFiles/update_mappings.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/rule
 
 # Convenience name for target.
@@ -263,7 +263,7 @@ update_mappings: source/glfw-master/src/CMakeFiles/update_mappings.dir/rule
 # codegen rule for target.
 source/glfw-master/src/CMakeFiles/update_mappings.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\src\CMakeFiles\update_mappings.dir\build.make source/glfw-master/src/CMakeFiles/update_mappings.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=34 "Finished codegen for target update_mappings"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=35 "Finished codegen for target update_mappings"
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/codegen
 
 # clean rule for target.
@@ -278,14 +278,14 @@ source/glfw-master/src/CMakeFiles/update_mappings.dir/clean:
 source/glfw-master/docs/CMakeFiles/docs.dir/all:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\docs\CMakeFiles\docs.dir\build.make source/glfw-master/docs/CMakeFiles/docs.dir/depend
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\docs\CMakeFiles\docs.dir\build.make source/glfw-master/docs/CMakeFiles/docs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=11 "Built target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=12 "Built target docs"
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/all
 
 # Build rule for subdir invocation for target.
 source/glfw-master/docs/CMakeFiles/docs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/CMakeFiles/docs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/rule
 
 # Convenience name for target.
@@ -295,7 +295,7 @@ docs: source/glfw-master/docs/CMakeFiles/docs.dir/rule
 # codegen rule for target.
 source/glfw-master/docs/CMakeFiles/docs.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f source\glfw-master\docs\CMakeFiles\docs.dir\build.make source/glfw-master/docs/CMakeFiles/docs.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=11 "Finished codegen for target docs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=12 "Finished codegen for target docs"
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/codegen
 
 # clean rule for target.

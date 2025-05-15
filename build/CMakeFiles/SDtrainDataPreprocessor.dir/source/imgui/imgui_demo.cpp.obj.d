@@ -1,7 +1,7 @@
 CMakeFiles/SDtrainDataPreprocessor.dir/source/imgui/imgui_demo.cpp.obj: \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui_demo.cpp \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imgui.h \
- C:\Users\HKIT\Desktop\conda\c\source\imgui\imconfig.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui_demo.cpp \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imgui.h \
+ C:\Users\HKIT\Desktop\conda\c\cppPractice\source\imgui\imconfig.h \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/float.h \
  C:/mingw64/x86_64-w64-mingw32/include/crtdefs.h \

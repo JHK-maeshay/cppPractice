@@ -9,6 +9,7 @@
 #include "source/imgui/imgui.h"
 #include "source/imgui/backends/imgui_impl_glfw.h"
 #include "source/imgui/backends/imgui_impl_opengl3.h"
+#include "source/imgui/misc/cpp/imgui_stdlib.h"
 
 //https://github.com/glfw/glfw
 #include "source/glfw-master/include/GLFW/glfw3.h"
@@ -24,13 +25,12 @@ void Show3x2ButtonsGUI() {
     ImGui::Begin("선택");
 
     if (ImGui::Button("이미지 한번에 처리", ImVec2(ImGui::GetContentRegionAvail().x, 40))) { 
-        handle_generic_feature(reinterpret_cast<void*>(
-            handle_image_queue));
+        handle_generic_feature(handle_image_queue, NAME, ".png", INDIR, OUTDIR, true);
     }
 
     if (ImGui::Button("태그 한번에 처리", ImVec2(ImGui::GetContentRegionAvail().x, 40))) {
-        handle_generic_feature(reinterpret_cast<void*>(
-            handle_text_queue));
+        std::string _intxt_ = add_tag+"\n"+remove_tag;
+        handle_generic_feature(handle_text_queue, _intxt_, ".txt", INDIR, OUTDIR, true);
     }
 
     static std::string labels[2][3] = {
@@ -49,22 +49,25 @@ void Show3x2ButtonsGUI() {
             if (ImGui::Button(label.c_str(), ImVec2(160, 60))) {
                 // 위치별로 다른 기능 호출
                 if (row == 0 && col == 0) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    handle_generic_feature(image_ext_changer, NAME, ".jpg", INDIR, OUTDIR, false);
+                    handle_generic_feature(image_ext_changer, NAME, ".jpeg", INDIR, OUTDIR, false);
+                    handle_generic_feature(image_ext_changer, NAME, ".webp", INDIR, OUTDIR, false);
                 }
                 else if (row == 0 && col == 1) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    handle_generic_feature(image_resizer, NAME, ".png", INDIR, OUTDIR, false);
                 }
                 else if (row == 0 && col == 2) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    handle_generic_feature(file_namer, NAME, ".png", INDIR, OUTDIR, false);
                 }
                 else if (row == 1 && col == 0) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    handle_generic_feature(tag_formatter, NAME, ".txt", INDIR, OUTDIR, false);
                 }
                 else if (row == 1 && col == 1) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    std::string _intxt_ = add_tag+"\n"+remove_tag;
+                    handle_generic_feature(tag_modifier, _intxt_, ".txt", INDIR, OUTDIR, false);
                 }
                 else if (row == 1 && col == 2) {
-                    handle_generic_feature(reinterpret_cast<void*>(example_feature_function));
+                    handle_generic_feature(file_namer, NAME, ".txt", INDIR, OUTDIR, false);
                 }
             }
 
@@ -79,23 +82,23 @@ void Show3x2ButtonsGUI() {
 
     ImGui::Text("입력 폴더");
     ImGui::SameLine();
-    ImGui::InputText("##InputFolder", &indir[0], indir.size()+1);
+    ImGui::InputText("##InputFolder", &indir);
 
     ImGui::Text("출력 폴더");
     ImGui::SameLine();
-    ImGui::InputText("##OutputFolder", &outdir[0], indir.size()+1);
+    ImGui::InputText("##OutputFolder", &outdir);
 
     ImGui::Text("이름 변경");
     ImGui::SameLine();
-    ImGui::InputText("##NewName", &change_name[0], indir.size()+1);
+    ImGui::InputText("##NewName", &change_name);
 
     ImGui::Text("추가 태그");
     ImGui::SameLine();
-    ImGui::InputText("##AddTag", &add_tag[0], indir.size()+1);
+    ImGui::InputText("##AddTag", &add_tag);
 
     ImGui::Text("삭제 태그");
     ImGui::SameLine();
-    ImGui::InputText("##RemoveTag", &remove_tag[0], indir.size()+1);
+    ImGui::InputText("##RemoveTag", &remove_tag);
 
     ImGui::End();
 }
@@ -113,6 +116,10 @@ std::string GetFontPath() {
 }
 
 int main() {
+    // 한글 출력 설정
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
     // GLFW 초기화
     if (!glfwInit()) {
         std::cerr << "GLFW 초기화 실패!" << std::endl;

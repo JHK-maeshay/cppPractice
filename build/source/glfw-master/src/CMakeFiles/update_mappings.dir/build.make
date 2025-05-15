@@ -52,10 +52,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 # Utility rule file for update_mappings.
 
@@ -66,8 +66,8 @@ include source/glfw-master/src/CMakeFiles/update_mappings.dir/compiler_depend.ma
 include source/glfw-master/src/CMakeFiles/update_mappings.dir/progress.make
 
 source/glfw-master/src/CMakeFiles/update_mappings:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
-	cd /d C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src && C:\mingw64\bin\cmake.exe -P C:/Users/HKIT/Desktop/conda/c/source/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Updating gamepad mappings from upstream repository"
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src && C:\mingw64\bin\cmake.exe -P C:/Users/HKIT/Desktop/conda/c/cppPractice/source/glfw-master/CMake/GenerateMappings.cmake mappings.h.in mappings.h
 
 source/glfw-master/src/CMakeFiles/update_mappings.dir/codegen:
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/codegen
@@ -81,10 +81,10 @@ source/glfw-master/src/CMakeFiles/update_mappings.dir/build: update_mappings
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/build
 
 source/glfw-master/src/CMakeFiles/update_mappings.dir/clean:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\src && $(CMAKE_COMMAND) -P CMakeFiles\update_mappings.dir\cmake_clean.cmake
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/clean
 
 source/glfw-master/src/CMakeFiles/update_mappings.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c C:\Users\HKIT\Desktop\conda\c\source\glfw-master\src C:\Users\HKIT\Desktop\conda\c\build C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\src C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c\cppPractice C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master\src C:\Users\HKIT\Desktop\conda\c\cppPractice\build C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\src C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\src\CMakeFiles\update_mappings.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : source/glfw-master/src/CMakeFiles/update_mappings.dir/depend
 

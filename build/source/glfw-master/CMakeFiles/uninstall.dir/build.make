@@ -52,10 +52,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 # Utility rule file for uninstall.
 
@@ -66,7 +66,7 @@ include source/glfw-master/CMakeFiles/uninstall.dir/compiler_depend.make
 include source/glfw-master/CMakeFiles/uninstall.dir/progress.make
 
 source/glfw-master/CMakeFiles/uninstall:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master && C:\mingw64\bin\cmake.exe -P C:/Users/HKIT/Desktop/conda/c/build/source/glfw-master/cmake_uninstall.cmake
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master && C:\mingw64\bin\cmake.exe -P C:/Users/HKIT/Desktop/conda/c/cppPractice/build/source/glfw-master/cmake_uninstall.cmake
 
 source/glfw-master/CMakeFiles/uninstall.dir/codegen:
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/codegen
@@ -80,10 +80,10 @@ source/glfw-master/CMakeFiles/uninstall.dir/build: uninstall
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/build
 
 source/glfw-master/CMakeFiles/uninstall.dir/clean:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master && $(CMAKE_COMMAND) -P CMakeFiles\uninstall.dir\cmake_clean.cmake
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/clean
 
 source/glfw-master/CMakeFiles/uninstall.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c C:\Users\HKIT\Desktop\conda\c\source\glfw-master C:\Users\HKIT\Desktop\conda\c\build C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\HKIT\Desktop\conda\c\cppPractice C:\Users\HKIT\Desktop\conda\c\cppPractice\source\glfw-master C:\Users\HKIT\Desktop\conda\c\cppPractice\build C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\CMakeFiles\uninstall.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : source/glfw-master/CMakeFiles/uninstall.dir/depend
 

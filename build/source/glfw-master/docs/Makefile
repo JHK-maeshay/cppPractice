@@ -56,10 +56,10 @@ RM = C:\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c
+CMAKE_SOURCE_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\build
+CMAKE_BINARY_DIR = C:\Users\HKIT\Desktop\conda\c\cppPractice\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,14 +131,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles C:\Users\HKIT\Desktop\conda\c\build\source\glfw-master\docs\\CMakeFiles\progress.marks
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\build\CMakeFiles 0
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles C:\Users\HKIT\Desktop\conda\c\cppPractice\build\source\glfw-master\docs\\CMakeFiles\progress.marks
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\HKIT\Desktop\conda\c\cppPractice\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/clean
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/clean
 .PHONY : clean
 
 # The main clean target
@@ -147,22 +147,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/preinstall
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/preinstall
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 source/glfw-master/docs/CMakeFiles/docs.dir/rule:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/CMakeFiles/docs.dir/rule
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 source/glfw-master/docs/CMakeFiles/docs.dir/rule
 .PHONY : source/glfw-master/docs/CMakeFiles/docs.dir/rule
 
 # Convenience name for target.
@@ -171,7 +171,7 @@ docs: source/glfw-master/docs/CMakeFiles/docs.dir/rule
 
 # fast build rule for target.
 docs/fast:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(MAKE) $(MAKESILENT) -f source\glfw-master\docs\CMakeFiles\docs.dir\build.make source/glfw-master/docs/CMakeFiles/docs.dir/build
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(MAKE) $(MAKESILENT) -f source\glfw-master\docs\CMakeFiles\docs.dir\build.make source/glfw-master/docs/CMakeFiles/docs.dir/build
 .PHONY : docs/fast
 
 # Help Target
@@ -198,6 +198,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\HKIT\Desktop\conda\c\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\HKIT\Desktop\conda\c\cppPractice\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
