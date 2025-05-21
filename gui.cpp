@@ -11,6 +11,8 @@ namespace fs = std::filesystem;
 #include <algorithm> 
 #include <cctype>    
 #include <locale> 
+#include <regex>
+#include <algorithm>
 
 #include "gui.h"
 
@@ -85,7 +87,7 @@ void file_namer(
         }
 
         if (counter) {
-        log_msg(std::to_string(counter)+"개 파일 변환 완료");
+        log_msg(std::to_string(counter)+"개 파일 작업 완료");
         }
         
     } catch (const std::exception& e) {
@@ -116,7 +118,93 @@ void tag_formatter(
     std::string ext,
     std::string indir,
     std::string outdir
-){return;};
+){
+    // 디렉토리가 존재하는지 확인
+    if (!fs::exists(indir)) {
+        err_msg("[error] 디렉터리 '"+indir+"'가 존재하지 않습니다.");
+        return;
+    }
+
+    int counter = 0;
+
+    // 출력 폴더 없으면 생성
+    fs::create_directories(outdir);
+
+    // 파일 순회
+    for (const auto& entry : fs::directory_iterator(indir)) {
+        if (fs::is_regular_file(entry) && entry.path().extension() == ext) {
+            std::ifstream input_file(entry.path());
+            if (!input_file.is_open()) {
+                std::cerr << "[error] 파일 열기 실패: " << entry.path() << std::endl;
+                continue;
+            }
+
+            std::ostringstream oss;
+            oss << input_file.rdbuf();  // 파일 내용 읽기
+            std::string file_content = oss.str();
+
+            // 임시 토큰 (임의로 유니크하게 설정)
+            const std::string token = "___SPECIAL_AT___";
+
+            // 1단계: @_@ → 임시 토큰으로 치환
+            std::string temp = std::regex_replace(file_content, std::regex(R"(@_@)"), token);
+
+            // 2단계: 나머지 단어에서 '_'를 ' '로 변경
+            std::string result;
+            std::regex word_regex(R"(\b[a-zA-Z0-9_]+\b)");
+            std::sregex_iterator iter(temp.begin(), temp.end(), word_regex);
+            std::sregex_iterator end;
+
+            size_t last_pos = 0;
+            for (; iter != end; ++iter) {
+                const auto& match = *iter;
+                std::string word = match.str();
+
+                if (word == token) {
+                    // 토큰은 그대로 둠 (원본 텍스트 그대로 붙임)
+                    result += temp.substr(last_pos, match.position() + match.length() - last_pos);
+                } else {
+                    // 토큰 아닌 경우 단어 전까지 붙이고,
+                    result += temp.substr(last_pos, match.position() - last_pos);
+
+                    // _ → ' ' 변환
+                    std::replace(word.begin(), word.end(), '_', ' ');
+                    result += word;
+                }
+
+                last_pos = match.position() + match.length();
+            }
+            // 마지막 남은 부분 붙임
+            result += temp.substr(last_pos);
+
+            // 3단계: 임시 토큰 다시 @_@로 복원
+            file_content = std::regex_replace(result, std::regex(token), "@_@");
+
+            // 4단계: '(' → '\(', ')' → '\)'로 변경
+            file_content = std::regex_replace(file_content, std::regex(R"(\()"), R"(\()");
+            file_content = std::regex_replace(file_content, std::regex(R"(\))"), R"(\))");
+
+            // 새 파일명 생성
+            std::string new_filename = entry.path().filename().string();
+            fs::path new_file_path = fs::path(outdir) / new_filename;
+
+            // 변환된 내용 파일 쓰기
+            std::ofstream output_file(new_file_path);
+            if (!output_file.is_open()) {
+                err_msg(std::string("[error] 출력 파일 열기 실패: ") + new_file_path.string());
+                continue;
+            }
+            output_file << file_content;
+
+            log_msg(std::string("완료: ") + new_file_path.string());
+            counter++;
+        }
+    }
+
+    if (counter) {
+        log_msg(std::to_string(counter)+"개 파일 작업 완료");
+        }
+}
 
 void tag_modifier(
     std::string input_text,
@@ -124,7 +212,8 @@ void tag_modifier(
     std::string indir,
     std::string outdir
 ){
-    log_msg(input_text);
+    // log_msg(input_text); 디버깅용
+    int counter = 0;
 
     // input_text 파싱
     std::istringstream ss(input_text);
@@ -144,7 +233,7 @@ void tag_modifier(
         if (entry.path().extension() == ".txt") {
             std::ifstream in(entry.path());
             if (!in.is_open()) {
-                log_msg("파일 열기 실패");
+                err_msg("파일 열기 실패");
                 continue;
             }
 
@@ -174,14 +263,20 @@ void tag_modifier(
             fs::path out_path = fs::path(outdir) / entry.path().filename();
             std::ofstream out(out_path, std::ios::trunc);
             if (!out.is_open()) {
-                err_msg("Failed to write to " + entry.path().string());
+                err_msg("파일 작성 실패: " + entry.path().string());
                 continue;
             }
 
             out << joinCSV(filtered) << std::endl;
-            log_msg("Processed: " + entry.path().string());
+            log_msg("완료: " + entry.path().string());
+
+            counter++;
         }
     }
+
+    if (counter) {
+        log_msg(std::to_string(counter)+"개 파일 작업 완료");
+        }
 }
 
 //공백 제거 함수
