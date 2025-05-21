@@ -16,9 +16,9 @@
 
 // GUI 표시 함수
 void Show3x2ButtonsGUI() {
-    static std::string indir="";
-    static std::string outdir="";
-    static std::string change_name="";
+    static std::string indir="INPUT_FILE_HERE";
+    static std::string outdir="OUTPUT_HERE";
+    static std::string change_name="ComfyUI_";
     static std::string add_tag="";
     static std::string remove_tag="";
 
@@ -57,7 +57,7 @@ void Show3x2ButtonsGUI() {
                     handle_generic_feature(image_resizer, NAME, ".png", INDIR, OUTDIR, false);
                 }
                 else if (row == 0 && col == 2) {
-                    handle_generic_feature(file_namer, NAME, ".png", INDIR, OUTDIR, false);
+                    handle_generic_feature(file_namer, change_name, ".png", INDIR, OUTDIR, false);
                 }
                 else if (row == 1 && col == 0) {
                     handle_generic_feature(tag_formatter, NAME, ".txt", INDIR, OUTDIR, false);
@@ -67,7 +67,7 @@ void Show3x2ButtonsGUI() {
                     handle_generic_feature(tag_modifier, _intxt_, ".txt", INDIR, OUTDIR, false);
                 }
                 else if (row == 1 && col == 2) {
-                    handle_generic_feature(file_namer, NAME, ".txt", INDIR, OUTDIR, false);
+                    handle_generic_feature(file_namer, change_name, ".txt", INDIR, OUTDIR, false);
                 }
             }
 

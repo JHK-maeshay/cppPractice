@@ -38,50 +38,56 @@ void file_namer(
     fs::create_directories(outdir); //폴더 없으면 생성
 
     try {
-        for (const auto& entry : fs::directory_iterator(indir)){
-            if (!fs::exists(indir)) {
+        
+        if (!fs::exists(indir)) {
             err_msg("[error] 디렉터리 '"+indir+"'가 존재하지 않습니다.");
-            }
-            bool is_empty = true;
+            return;
+        }
+
+        //is_empty 비활성화
+        bool is_empty = true;
+        
+        //기능 수행
+        int counter = 0; // 파일 이름을 순차적으로 지정하기 위한 카운터
+        for (const auto& entry : fs::directory_iterator(indir)) {
+            if (fs::is_regular_file(entry)) {
             
-            //기능 수행
-            int counter = 1; // 파일 이름을 순차적으로 지정하기 위한 카운터
-            for (const auto& entry : fs::directory_iterator(indir)) {
-                if (fs::is_regular_file(entry)) {
+            //is_empty 비활성화
+            is_empty = false;
 
-                // 원본 파일의 경로와 확장자 추출
-                std::string extension = entry.path().extension().string();
+            // 원본 파일의 경로와 확장자 추출
+            std::string extension = entry.path().extension().string();
+            
+            if (extension == ext){
+                // 카운터를 4자리로 포맷팅 (예: 0001, 0002, ...)
+                std::ostringstream oss;
+                oss << std::setw(4) << std::setfill('0') << counter;
                 
-                if (extension == ext){
-                    // 카운터를 4자리로 포맷팅 (예: 0001, 0002, ...)
-                    std::ostringstream oss;
-                    oss << std::setw(4) << std::setfill('0') << counter;
-                    
-                    // 새 파일 이름 생성
-                    std::string new_filename = "input_text" + oss.str() + extension;
+                // 새 파일 이름 생성
+                std::string new_filename = input_text + oss.str() + extension;
 
-                    // 새 파일 경로
-                    fs::path new_file_path = outdir / fs::path(new_filename);
+                // 새 파일 경로
+                fs::path new_file_path = outdir / fs::path(new_filename);
 
-                    // 파일을 복사하여 새 이름으로 저장
-                    fs::copy(entry.path(), new_file_path);
+                // 파일을 복사하여 새 이름으로 저장
+                fs::copy(entry.path(), new_file_path);
 
-                    log_msg("파일 복사: "+entry.path().string()+" -> "+new_file_path.string());
-                    
-                    // 카운터 증가
-                    counter++;
-                    }
+                log_msg("파일 복사: "+entry.path().string()+" -> "+new_file_path.string());
+                
+                // 카운터 증가
+                counter++;
                 }
             }
-
-            if (is_empty) {
-            err_msg("디렉터리 "+indir+"는 비어있습니다");
-            }
-
-            if (counter) {
-            log_msg(counter+"개 파일 변환 완료");
-            }
         }
+
+        if (is_empty) {
+        err_msg("디렉터리 "+indir+"는 비어있습니다");
+        }
+
+        if (counter) {
+        log_msg(std::to_string(counter)+"개 파일 변환 완료");
+        }
+        
     } catch (const std::exception& e) {
         // 예외 발생 시 에러 메시지를 출력
         std::cerr << "실패: " << e.what() << std::endl;
