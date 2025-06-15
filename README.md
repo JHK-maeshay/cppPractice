@@ -1,16 +1,11 @@
+## Image and Tag Converter for Stable Diffusion
 ---
-###### python코드를 c++로 옮기는데 컴파일부터 막혀서 배우는 중입니다
+### How to Use
+
+Execute `SDtrainDataPreprocessor.exe`, in root.
+
+Take images`jpg` `webp` `png` and tags`txt` into `INPUT_FILE_HERE` folder.
+
+Click button, you want. Processed file will be in `OUTPUT_FILE`.
+
 ---
-+ C++17이 뭔지
-+ MinGW 버전
-+ CMake 작성
-+ CMake 경로 문제
-+ 라이브러리 추가
-+ 라이브러리 경로 문제
-+ 함수 포인터
-+ 함수 타입 캐스팅
-+ IMGUI 한글 폰트 깨짐
-+ 콘솔 출력 한글 깨짐
-+ std::string과 const char*의 차이
-+ reinterpret_cast 쓰지말것
-+ 템플릿 함수 정의 방법
