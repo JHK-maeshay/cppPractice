@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Users/jeokj/git/cppPractice/source/glfw-master/CMake/cmake_uninstall.cmake.in
+C:/Users/jeokj/git/cppPractice/source/glfw-master/CMake/glfw3Config.cmake.in
+C:/Users/jeokj/git/cppPractice/source/glfw-master/CMakeLists.txt
+C:/mingw64/share/cmake-4.0/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/mingw64/share/cmake-4.0/Modules/CMakeDependentOption.cmake
+C:/mingw64/share/cmake-4.0/Modules/CMakePackageConfigHelpers.cmake
+C:/mingw64/share/cmake-4.0/Modules/CheckCSourceCompiles.cmake
+C:/mingw64/share/cmake-4.0/Modules/CheckIncludeFile.cmake
+C:/mingw64/share/cmake-4.0/Modules/CheckLibraryExists.cmake
+C:/mingw64/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/mingw64/share/cmake-4.0/Modules/FindPackageMessage.cmake
+C:/mingw64/share/cmake-4.0/Modules/FindThreads.cmake
+C:/mingw64/share/cmake-4.0/Modules/GNUInstallDirs.cmake
+C:/mingw64/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake
+C:/mingw64/share/cmake-4.0/Modules/WriteBasicConfigVersionFile.cmake

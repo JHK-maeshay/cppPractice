@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Users/jeokj/git/cppPractice/source/glfw-master/docs/CMakeLists.txt
+C:/Users/jeokj/git/cppPractice/source/glfw-master/docs/Doxyfile.in
+C:/mingw64/share/cmake-4.0/Modules/FindDoxygen.cmake
+C:/mingw64/share/cmake-4.0/Modules/FindPackageHandleStandardArgs.cmake
+C:/mingw64/share/cmake-4.0/Modules/FindPackageMessage.cmake

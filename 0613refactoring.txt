@@ -1,0 +1,131 @@
+클래스 구조로 재편
+- 상수선언
+- 결과구조체
+- 베이스 클래스
+ㄴ- 기능 구현 클래스
+- 공통핸들링함수
+
+기능함수는 따로 분리
+
+gpt 예시
+#pragma once
+
+#include <string>
+#include <vector>
+#include <set>
+#include <memory>
+#include <iostream>
+
+// 기본 상수 경로
+inline const std::string INDIR = "INPUT_FILE_HERE";
+inline const std::string OUTDIR = "OUTPUT_HERE";
+inline const std::string NAME = "ComfuUI_";
+
+// 결과 구조체
+struct FeatureResult {
+    int converted;
+    int dummy;
+};
+
+// 베이스 클래스
+class FeatureTask {
+protected:
+    std::string input_text;
+    std::string ext;
+    std::string indir;
+    std::string outdir;
+
+public:
+    FeatureTask(std::string input, std::string ext, std::string in, std::string out)
+        : input_text(input), ext(ext), indir(in), outdir(out) {}
+
+    virtual void execute() = 0;
+    virtual ~FeatureTask() = default;
+};
+
+// 각 기능 구현 클래스
+class ExampleFeature : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Running example feature");
+    }
+};
+
+class FileNamer : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Renaming files...");
+    }
+};
+
+class ImageExtChanger : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Changing image extension...");
+    }
+};
+
+class ImageResizer : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Resizing image...");
+    }
+};
+
+class TagFormatter : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Formatting tag...");
+    }
+};
+
+class TagModifier : public FeatureTask {
+public:
+    using FeatureTask::FeatureTask;
+    void execute() override {
+        log_msg("Modifying tag...");
+    }
+};
+
+// 공통 작업 핸들러
+void handle_feature(std::unique_ptr<FeatureTask> task) {
+    task->execute();
+}
+
+// 유틸리티 함수들
+void log_msg(std::string msg) {
+    std::cout << "[LOG] " << msg << std::endl;
+}
+
+void err_msg(std::string msg) {
+    std::cerr << "[ERROR] " << msg << std::endl;
+}
+
+std::vector<std::string> parseCSV(const std::string& input) {
+    std::vector<std::string> result;
+    size_t start = 0, end;
+    while ((end = input.find(',', start)) != std::string::npos) {
+        result.push_back(input.substr(start, end - start));
+        start = end + 1;
+    }
+    result.push_back(input.substr(start));
+    return result;
+}
+
+std::string joinCSV(const std::vector<std::string>& items) {
+    std::string result;
+    for (size_t i = 0; i < items.size(); ++i) {
+        result += items[i];
+        if (i < items.size() - 1) result += ",";
+    }
+    return result;
+}
+
+std::set<std::string> vectorToSet(const std::vector<std::string>& vec) {
+    return std::set<std::string>(vec.begin(), vec.end());
+}

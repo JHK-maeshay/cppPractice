@@ -1,0 +1,12 @@
+C:/Users/jeokj/git/cppPractice/build-vs/CMakeFiles/SDtrainDataPreprocessor.dir
+C:/Users/jeokj/git/cppPractice/build-vs/CMakeFiles/INSTALL.dir
+C:/Users/jeokj/git/cppPractice/build-vs/CMakeFiles/ALL_BUILD.dir
+C:/Users/jeokj/git/cppPractice/build-vs/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/CMakeFiles/uninstall.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/CMakeFiles/INSTALL.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/CMakeFiles/ALL_BUILD.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/src/CMakeFiles/glfw.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/src/CMakeFiles/update_mappings.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/src/CMakeFiles/INSTALL.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/docs/CMakeFiles/docs.dir
+C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/docs/CMakeFiles/INSTALL.dir

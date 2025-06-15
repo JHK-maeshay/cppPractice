@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/jeokj/git/cppPractice/build-vs/cmake_install.cmake",
+		"C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/cmake_install.cmake",
+		"C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/src/cmake_install.cmake",
+		"C:/Users/jeokj/git/cppPractice/build-vs/source/glfw-master/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
