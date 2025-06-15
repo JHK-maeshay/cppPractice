@@ -1,4 +1,4 @@
-## Image and Tag Converter for Stable Diffusion
+## Image and Tag Converter for kohya_ss LoRA Training
 ---
 ### How to Use
 
